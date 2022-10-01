@@ -1,10 +1,10 @@
 <?php
     function Conectarse()
     {
-    $host='db1.co361bfxv0nr.us-east-1.rds.amazonaws.com';
+    $host='db1angel.co361bfxv0nr.us-east-1.rds.amazonaws.com';
     $usuariodb='root';
     $passwdb='12341234';
-    $nombredb="db1";
+    $nombredb="db1angel";
     if (!($link=mysqli_connect($host,$usuariodb,$passwdb)))
 {
 echo "Error conectando a la base de datos.";
