@@ -1,7 +1,7 @@
 <?php
     function Conectarse()
     {
-    $host='localhost';
+    $host='54.235.225.187';
     $usuariodb='rootuser';
     $passwdb='12341234';
     $nombredb="prueba";
