@@ -1,9 +1,9 @@
 <?php
 class Conexion {
-$servidor = "computaciondb.co361bfxv0nr.us-east-1.rds.amazonaws.com";
-$usuario = "admin";
-$contrasena = "AngeL-0108";
-$based = "computaciondb";
+$servidor = "db1angel.co361bfxv0nr.us-east-1.rds.amazonaws.com";
+$usuario = "root";
+$contrasena = "12341234";
+$based = "db1angel";
 $conn;
 
 public function conectar() {
