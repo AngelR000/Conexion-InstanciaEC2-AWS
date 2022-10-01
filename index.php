@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>EC2 Server Angel</title>
-    <?php
+    
+<!--?php
     $host='localhost';
     $usuariodb='root';
     $passwdb='12341234';
@@ -24,7 +23,9 @@ $link=Conectarse();
 echo "Conexión con la base de datos conseguida.
 ";
 mysql_close($link); //cierra la conexion
-    ?>
+    ?-->
+<head>
+    <title>EC2 Server Angel</title>
 </head>
 <body>
     <center><h5>Hola, Servidor EC2</h5></center>
