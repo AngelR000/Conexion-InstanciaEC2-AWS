@@ -1,7 +1,7 @@
 <?php
     function Conectarse()
     {
-    $host='3.83.228.81';
+    $host='localhost';
     $usuariodb='rootuser';
     $passwdb='12341234';
     $nombredb="prueba";
@@ -17,8 +17,9 @@ exit();
 }
 return $link;
     }
-    $link=Conectarse();
+    if($link=Conectarse()){
 echo "Conexión con la base de datos conseguida.";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="sp">
