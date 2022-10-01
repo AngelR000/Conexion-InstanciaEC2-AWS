@@ -3,10 +3,10 @@
 <head>
     <title>EC2 Server Angel</title>
     <?php
-    $host='db1angel.co361bfxv0nr.us-east-1.rds.amazonaws.com:3306';
+    $host='db1.co361bfxv0nr.us-east-1.rds.amazonaws.com';
     $usuariodb='root';
     $passwdb='12341234';
-    $nombredb='db1angel';
+    $nombredb='db1';
     if (!($link=mysql_connect($host,$usuariodb,$passwdb)))
 {
 echo "Error conectando a la base de datos.";
