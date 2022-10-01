@@ -3,7 +3,7 @@
 <head>
     <title>EC2 Server Angel</title>
     <?php
-    $host='db1angel.co361bfxv0nr.us-east-1.rds.amazonaws.com';
+    $host='db1angel.co361bfxv0nr.us-east-1.rds.amazonaws.com:3306';
     $usuariodb='root';
     $passwdb='12341234';
     $nombredb='db1angel';
