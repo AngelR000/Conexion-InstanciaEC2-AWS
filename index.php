@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>EC2 Server Angel</title>
-</head>
-
-<body>
 <?php
 class Conexion {
 $servidor = "computaciondb.co361bfxv0nr.us-east-1.rds.amazonaws.com";
@@ -30,9 +22,14 @@ public function desconectar() {
 }
 $ejemplo = new Conexion();
 $ejemplo->conectar();
-
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EC2 Server Angel</title>
+</head>
 
+<body>
     <center><h5>Hola, Servidor EC2</h5></center>
 </body>
 
