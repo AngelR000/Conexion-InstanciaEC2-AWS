@@ -3,7 +3,7 @@ class Conexion {
 $servidor = "computaciondb.co361bfxv0nr.us-east-1.rds.amazonaws.com";
 $usuario = "admin";
 $contrasena = "AngeL-0108";
-$based = "ejemplo";
+$based = "computaciondb";
 $conn;
 
 public function conectar() {
@@ -20,6 +20,5 @@ public function desconectar() {
     $this->$conn->close();
     }
 }
-$ejemplo = new Conexion();
-$ejemplo->conectar();
+
 ?>
