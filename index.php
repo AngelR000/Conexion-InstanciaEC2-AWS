@@ -1,7 +1,6 @@
 <?php
 include('bd.php');
-$ejemplo = new Conexion();
-$ejemplo->conectar();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
