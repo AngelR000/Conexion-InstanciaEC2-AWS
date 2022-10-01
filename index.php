@@ -7,6 +7,7 @@
 
 <body>
 <?php
+class Conexion {
 $servidor = "computaciondb.co361bfxv0nr.us-east-1.rds.amazonaws.com";
 $usuario = "admin";
 $contrasena = "AngeL-0108";
@@ -25,8 +26,8 @@ public function conectar() {
 public function desconectar() {
     self::conectar();
     $this->conn->close();
+    }
 }
-
 $ejemplo = new Conexion();
 $ejemplo->conectar();
 
