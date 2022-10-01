@@ -1,8 +1,8 @@
 <?php
     function Conectarse()
     {
-    $host='db1angel.co361bfxv0nr.us-east-1.rds.amazonaws.com';
-    $usuariodb='root';
+    $host='3.83.228.81';
+    $usuariodb='rootuser';
     $passwdb='12341234';
     $nombredb="prueba";
     if (!($link=mysqli_connect($host,$usuariodb,$passwdb)))
