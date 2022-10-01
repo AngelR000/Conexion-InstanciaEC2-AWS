@@ -26,7 +26,7 @@ public function desconectar() {
     self::conectar();
     $this->conn->close();
 }
-}
+
 $ejemplo = new Conexion();
 $ejemplo->conectar();
 
